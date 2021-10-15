@@ -1,0 +1,72 @@
+<section id="contacto-banner-section">
+    <div class="contacto-banner">
+        <img src="./assests/img/contacto-banner.jpg" alt="Banner de contacto">
+        <div class="contacto-banner-title">
+            <h1>Cont&aacute;ctanos</h1>
+        </div>
+    </div>
+</section>
+<section id="contacto-section">
+    <div class="contacto-container">
+        <div id="contactoFormContainer" class="d-flex">
+            <form id="contactForm">
+                <div class="form-group">
+                    <input type="text" name="name" id="name" placeholder="Nombre" aria-required="true">
+                </div>
+                <div class="error-container">
+                    <div class="error" id="name-error"></div>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="phone" id="phone" placeholder="Tel&eacute;fono" aria-required="true">
+                </div>
+                <div class="error-container">
+                    <div class="error" id="phone-error"></div>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="email" id="email" placeholder="Email" aria-required="true">
+                </div>
+                <div class="error-container">
+                    <div class="error" id="email-error"></div>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="message" placeholder="Mensaje" aria-required="true"></textarea>
+                </div>
+                <div class="error-container">
+                    <div class="error" id="message-error"></div>
+                </div>
+                <div class="captcha-container">
+                    <div class="captcha-code">
+                        <span class="no-select" id="captchaCode"></span>
+                    </div>
+                    <div>
+                        <div class="form-group">
+                            <input type="text" name="captcha" id="captchaInput" placeholder="Captcha">
+                        </div>
+                        <div class="error-container">
+                            <div id="captcha-error" class="error"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button id="btnSubmit" type="button">Enviar Mensaje</button>
+                </div>
+            </form>
+        </div>
+        <div id="submitMessage" class="d-none flex-direction-column text-center">
+            <span>¡Gracias por contactarte con nosotros!</span>
+            <span>Nos comunicaremos con vos a la brevedad</span>
+        </div>
+        <div class="divisor"></div>
+        <div class="location">
+            <div>
+                <h2>Nuestra Ubicaci&oacute;n</h2>
+            </div>
+            <div>
+                <img src="./assests/img/ubicacion-google-maps.png" alt="Localizaci&oacute;n de Google Maps">
+            </div>
+            <div>
+                <span>Velez Sarfield 2112 - Olavarr&iacute;a, Buenos Aires</span>
+            </div>
+        </div>
+    </div>
+</section>
